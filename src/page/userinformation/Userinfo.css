@@ -1,0 +1,26 @@
+.imgWith{
+    width: 500px;
+}
+.userInfo{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+.userText{
+    text-transform: capitalize;
+}
+
+.userText p{
+    width: 500px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.userText i{
+    font-size: 40px;
+}
+.userText h3{
+    margin-top: 10px;
+    margin-bottom: -7px;
+}

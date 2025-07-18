@@ -1,0 +1,19 @@
+.productsWrapper {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+}
+.cardUsers,
+.skleton {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.cardUsers img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    cursor: pointer;
+}

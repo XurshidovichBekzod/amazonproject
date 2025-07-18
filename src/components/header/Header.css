@@ -1,0 +1,56 @@
+.header{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #1D1D1D;
+    background-color: #1D1D1D;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+    margin-top: 17px;
+}
+
+.collection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.textHeader{
+    display: flex;
+    gap: 30px;
+}
+
+.inp{
+    width: 700px;
+    height:  35px;
+    border-radius: 3px 0px 0px 3px;
+    border: 1px solid #1D1D1D;
+    outline: none;
+    padding-left: 10px;
+}
+
+.card{
+    width: 35px;
+    height: 33px;
+    border-radius: 8px 3px 3px 8px;
+    background-color: white;
+    margin-left: -7px;
+}
+.felxCard{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    margin-top: 6px;
+    margin-left: 7px;
+}
