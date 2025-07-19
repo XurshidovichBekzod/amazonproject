@@ -10,7 +10,7 @@ const Header = () => {
             <nav className='navbar container'>
                 <ul className='collection'>
                     <li className='item'>
-                        <NavLink to={"/product"}>
+                        <NavLink to={"/"}>
                             <img className='logo' src={logo} alt="" />
                         </NavLink>
                     </li>
@@ -22,7 +22,7 @@ const Header = () => {
                     </div>
                     <div className='textHeader'>
                         <li className='item'>
-                            <NavLink to={"/product"}>
+                            <NavLink to={"/"}>
                                 <p>Products</p>
                             </NavLink>
                         </li>
